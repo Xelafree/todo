@@ -11,7 +11,7 @@ struct task {
 
 int main() {
 	struct task tasks[10];
-	scanf("%39[0-9a-zA-Z ]", &tasks[0].title);
+	scanf("%39[0-9a-zA-Z ]", tasks->title);
 	printf("%d %s\n", tasks[0].status, tasks[0].title);
 	return 0;
 }
