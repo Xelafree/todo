@@ -9,7 +9,7 @@ struct task {
 	
 };
 
-int main() {
+int main(int argc, char* argv[]) {
 	struct task tasks[10];
 	scanf("%39[0-9a-zA-Z ]", tasks->title);
 	printf("%d %s\n", tasks[0].status, tasks[0].title);
